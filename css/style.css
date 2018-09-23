@@ -1,0 +1,130 @@
+ul li {
+    list-style-type: none;
+    float:right;
+    display: inline;
+    margin: 15px 15px 0px 10px;
+    padding-right:40px;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a:link {
+
+    text-decoration: none;
+}
+h1 {
+    background-color: #4aaaa5;    
+    font-family:'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    margin: 0px 0px 0px 50px;
+    height: 76%;
+    padding-top:20px;
+    width: 20%;
+    Float: left;
+}    
+    
+
+.flex {
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}  
+
+.absolute {
+    position: relative;
+    float:right;
+    margin-right:200px;
+    
+}
+
+
+body {
+    background-color:rgb(190, 188, 188);
+    color: #777777;
+    border-color: #dddddd;
+}
+
+header {
+    background-color: #ffffff;
+    border:#cccccc;
+    position:absolute;
+    top:20px;
+    right:70px;
+    left:70px;
+    height:80px;
+}
+
+h2 {
+    color:#4aaaa5;
+    font-family:'Georgia', Times, Times New Roman, serif;
+    
+}   
+    
+img {
+    float: left;
+    padding: 20px 20px 20px 20px;
+}
+img {
+    clear: both
+}
+
+.wrapper {
+    width: 50%;
+    margin:0 auto; 
+}
+#jumbotron {
+    border:#dddddd;
+    background-color:#ffffff;  
+    color:#777777;
+    position: absolute;
+	width: 700px;
+	bottom:-30;
+	right: 150px;
+    margin-left: 70px;
+    margin-right: 300px;
+    margin-top:150px;
+    padding:15px;
+    
+}
+
+#form {
+    border:#dddddd;
+    background-color:#ffffff;  
+    color:#777777;
+    position: absolute;
+    width: 700px;
+	right: 150px;
+    margin-left: 70px;
+    margin-right: 300px;
+    margin-top:150px;
+    padding:25px;
+}
+
+.move {
+    float:left;
+
+}
+input[type=text], select{
+
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.bottom {
+    background-color: #666666;
+    position: fixed;
+    left:70px;
+    right:70px;
+    bottom:0;
+    height:30px;
+    border-top:16px solid #4aaaa5;
+}
+.clearfix::after {
+    display:block;
+    clear:both;
+    content:"";
+}
