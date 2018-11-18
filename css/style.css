@@ -1,130 +1,250 @@
-ul li {
-    list-style-type: none;
-    float:right;
-    display: inline;
-    margin: 15px 15px 0px 10px;
-    padding-right:40px;
-    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-a:link {
-
-    text-decoration: none;
-}
-h1 {
-    background-color: #4aaaa5;    
-    font-family:'Georgia', Times, Times New Roman, serif;
-    text-align: center;
-    margin: 0px 0px 0px 50px;
-    height: 76%;
-    padding-top:20px;
-    width: 20%;
-    Float: left;
-}    
-    
-
-.flex {
-    display:flex;
-    justify-content: space-between;
-    align-items: baseline;
-
-}  
-
-.absolute {
-    position: relative;
-    float:right;
-    margin-right:200px;
-    
-}
-
-
 body {
-    background-color:rgb(190, 188, 188);
-    color: #777777;
-    border-color: #dddddd;
+
+    background-image: url(../assets/images/background.jpeg);
+    padding-bottom: 60px;
+    -webkit-perspective: 100px;
+          perspective: 100px;
+   
 }
 
-header {
-    background-color: #ffffff;
-    border:#cccccc;
-    position:absolute;
-    top:20px;
-    right:70px;
-    left:70px;
-    height:80px;
+#contact {
+
+    margin-top: -15px;
+}
+
+#contactB {
+
+    background-image: url(../assets/images/contactbackground.jpeg);
+    color:black;
+}
+
+
+footer {
+
+    height: 80px;
+    padding-top:200px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+/* #footerTwo {
+
+    
+} */
+
+#forms {
+
+    padding-left:40px;
+}
+
+.form-control {
+
+    width:40%;
+}
+
+.form-group {
+
+    padding-left:20px;
+   
+}
+
+.form-horizontal {
+
+    align-content: center;
+}
+
+#github {
+
+    width:100px;
+    height: 100px;
+ }
+
+ #githubTwo {
+
+    
+    padding-top: 50px;
+
+ }
+
+h1 {
+
+    text-align: center;
 }
 
 h2 {
-    color:#4aaaa5;
-    font-family:'Georgia', Times, Times New Roman, serif;
-    
-}   
-    
-img {
-    float: left;
-    padding: 20px 20px 20px 20px;
-}
-img {
-    clear: both
+
+    text-align: center;
 }
 
-.wrapper {
-    width: 50%;
-    margin:0 auto; 
+
+#inputName, #inputEmail {
+
+    height:45px;
+    width:40%;
 }
-#jumbotron {
-    border:#dddddd;
-    background-color:#ffffff;  
-    color:#777777;
-    position: absolute;
-	width: 700px;
-	bottom:-30;
-	right: 150px;
-    margin-left: 70px;
-    margin-right: 300px;
-    margin-top:150px;
-    padding:15px;
+
+.jumbotron {
+
+    border: 5px,solid,white;
+    margin:auto;
+    padding: 10px;
+    text-align: center;
+    width:80%;
     
 }
 
-#form {
-    border:#dddddd;
-    background-color:#ffffff;  
-    color:#777777;
-    position: absolute;
-    width: 700px;
-	right: 150px;
-    margin-left: 70px;
-    margin-right: 300px;
-    margin-top:150px;
-    padding:25px;
+label {
+
+    font-size:20px;
+    padding-bottom: 15px;
+    width:25%;
 }
 
-.move {
-    float:left;
+legend {
 
+    font-size:35px;
+    padding-left: 60px;
 }
-input[type=text], select{
 
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+#mainPage {
+
+    margin-top:20px;
+    padding-bottom: 25px;
+    scroll-snap-coordinate: start;
+    scroll-snap-points-y: repeat(300px);
 }
-.bottom {
-    background-color: #666666;
-    position: fixed;
-    left:70px;
-    right:70px;
-    bottom:0;
-    height:30px;
-    border-top:16px solid #4aaaa5;
+
+#submitButton {
+
+    margin-top:30px;
 }
-.clearfix::after {
-    display:block;
-    clear:both;
-    content:"";
+
+#testing {
+
+    float:right;
 }
+
+.textArea {
+
+    border-color:green;
+}
+
+#tops {
+
+    padding-left:40px;
+}
+
+.topName {
+
+    margin-top:15px;
+}
+
+.trunk,
+.trunk div {
+  background:#32647e;
+  
+  will-change: transform;
+  width: 25vmin;
+  height: 2.5vmin;
+  position: absolute;
+  margin-left: -2.5vmin;
+  -webkit-animation-name: rot;
+          animation-name: rot;
+  -webkit-animation-duration: 2.26562s;
+          animation-duration: 2.26562s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-transform-origin: 1.25vmin 1.25vmin;
+          transform-origin: 1.25vmin 1.25vmin;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+.trunk.trunk,
+.trunk div.trunk {
+  bottom: -260px;
+  left: 90%;
+  -webkit-animation-name: rot-root;
+          animation-name: rot-root;
+  -webkit-animation-duration: 2.46428s;
+          animation-duration: 2.46428s;
+}
+.trunk >div,
+.trunk div >div {
+  top: -40;
+  left: 25vmin;
+  -webkit-animation-duration: calc((inherit / 2));
+          animation-duration: calc((inherit / 2));
+}
+.trunk >div:nth-child(2),
+.trunk div >div:nth-child(2) {
+  -webkit-animation-name: rot-inv;
+          animation-name: rot-inv;
+  -webkit-animation-duration: 1.777351213486541s;
+          animation-duration: 1.777351213486541s;
+}
+@-webkit-keyframes rot {
+  from {
+    -webkit-transform: rotate(15deg) scale(0.72);
+            transform: rotate(15deg) scale(0.72);
+  }
+  to {
+    -webkit-transform: rotate(45deg) scale(0.72);
+            transform: rotate(45deg) scale(0.72);
+  }
+}
+@keyframes rot {
+  from {
+    -webkit-transform: rotate(15deg) scale(0.72);
+            transform: rotate(15deg) scale(0.72);
+  }
+  to {
+    -webkit-transform: rotate(45deg) scale(0.72);
+            transform: rotate(45deg) scale(0.72);
+  }
+}
+@-webkit-keyframes rot-inv {
+  from {
+    -webkit-transform: rotate(-45deg) scale(0.72);
+            transform: rotate(-45deg) scale(0.72);
+  }
+  to {
+    -webkit-transform: rotate(-15deg) scale(0.72);
+            transform: rotate(-15deg) scale(0.72);
+  }
+}
+@keyframes rot-inv {
+  from {
+    -webkit-transform: rotate(-45deg) scale(0.72);
+            transform: rotate(-45deg) scale(0.72);
+  }
+  to {
+    -webkit-transform: rotate(-15deg) scale(0.72);
+            transform: rotate(-15deg) scale(0.72);
+  }
+}
+@-webkit-keyframes rot-root {
+  from {
+    -webkit-transform: rotate(-95deg);
+            transform: rotate(-95deg);
+  }
+  to {
+    -webkit-transform: rotate(-85deg);
+            transform: rotate(-85deg);
+  }
+}
+@keyframes rot-root {
+  from {
+    -webkit-transform: rotate(-95deg);
+            transform: rotate(-95deg);
+  }
+  to {
+    -webkit-transform: rotate(-85deg);
+            transform: rotate(-85deg);
+  }
+}
+
+
+
