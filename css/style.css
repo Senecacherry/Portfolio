@@ -4,6 +4,7 @@ body {
     padding-bottom: 60px;
     -webkit-perspective: 100px;
           perspective: 100px;
+
    
 }
 
@@ -19,10 +20,21 @@ body {
 }
 
 
+
+.fas {
+
+    color:white;
+
+}
+
+
 footer {
 
-    height: 80px;
-    padding-top:200px;
+    bottom:0;
+    border-color: #839496;
+    left:0;
+    margin-top:100px;
+    position:fixed;
     text-align: center;
     width: 100%;
     
@@ -56,8 +68,10 @@ footer {
 
 #github {
 
-    width:100px;
+    padding-top:-40px;
     height: 100px;
+    width:100px;
+    
  }
 
  #githubTwo {
@@ -67,8 +81,16 @@ footer {
 
  }
 
+ html {
+
+    height:100%;
+
+ }
+
 h1 {
 
+    padding-bottom:15px;
+    padding-top:15px;
     text-align: center;
 }
 
@@ -78,7 +100,7 @@ h2 {
 }
 
 
-#inputName, #inputEmail {
+#inputEmail, #inputName {
 
     height:45px;
     width:40%;
@@ -86,9 +108,12 @@ h2 {
 
 .jumbotron {
 
-    border: 5px,solid,white;
+    border-color: :white;
+    border-style: solid; 
+    border-width: 5px;
     margin:auto;
     padding: 10px;
+    margin-top:60px;
     text-align: center;
     width:80%;
     
@@ -107,13 +132,17 @@ legend {
     padding-left: 60px;
 }
 
-#mainPage {
+.navbar-expand-lg {
 
-    margin-top:20px;
-    padding-bottom: 25px;
-    scroll-snap-coordinate: start;
-    scroll-snap-points-y: repeat(300px);
+    padding-right:10px;
 }
+
+#navPad {
+
+    height:60px;
+
+}
+
 
 #submitButton {
 
@@ -245,6 +274,5 @@ legend {
             transform: rotate(-85deg);
   }
 }
-
 
 
