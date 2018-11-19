@@ -19,7 +19,33 @@ body {
     color:black;
 }
 
+#contactA {
 
+    color: white;
+    font-size:30px;
+    padding-right:15px;
+}
+
+#contactC {
+
+    color:white;
+    font-size:30px;
+    padding-right:15px;
+}
+
+#contactP {
+
+    font-size: 30px;
+    padding-right:15px;
+}
+
+
+
+
+.far {
+
+    color:rgba(70, 129, 3, 0.863);
+}
 
 .fas {
 
@@ -79,6 +105,12 @@ footer {
     
     padding-top: 50px;
 
+ }
+
+ #hopeLlc {
+
+    font-size:30px;
+    
  }
 
  html {
