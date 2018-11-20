@@ -8,15 +8,20 @@ body {
    
 }
 
+.card border-warning mb-3 {
+
+    background-color:#163749;
+}
+
+#cardsP {
+
+    margin-left:55px;
+}
+
+
 #contact {
 
     margin-top: -15px;
-}
-
-#contactB {
-
-    background-image: url(../assets/images/contactbackground.jpeg);
-    color:black;
 }
 
 #contactA {
@@ -24,6 +29,15 @@ body {
     color: white;
     font-size:30px;
     padding-right:15px;
+}
+
+#contactB {
+
+    background-image: url(../assets/images/contactbackground.jpeg);
+    color:black;
+    height:100%;
+    overscroll-behavior-y: contain;
+
 }
 
 #contactC {
@@ -66,11 +80,6 @@ footer {
     
 }
 
-/* #footerTwo {
-
-    
-} */
-
 #forms {
 
     padding-left:40px;
@@ -92,10 +101,19 @@ footer {
     align-content: center;
 }
 
+#gitFooter {
+
+    background-color: none;
+    height:50px;
+    width:50px;
+    
+
+}
+
 #github {
 
-    padding-top:-40px;
     height: 100px;
+    padding-top:-40px;
     width:100px;
     
  }
@@ -105,6 +123,7 @@ footer {
     
     padding-top: 50px;
 
+
  }
 
  #hopeLlc {
@@ -113,11 +132,17 @@ footer {
     
  }
 
- html {
+ #html {
 
     height:100%;
 
  }
+
+ /* #htmlTwo {
+
+    height:100%;
+    overflow:hidden;
+ } */
 
 h1 {
 
@@ -131,6 +156,23 @@ h2 {
     text-align: center;
 }
 
+#indexA {
+
+    color:white;
+    font-size:30px;
+}
+
+#indexC {
+
+    color:white;
+    font-size:30px;
+}
+
+#indexP {
+
+    color:white;
+    font-size: 30px;
+}
 
 #inputEmail, #inputName {
 
@@ -172,7 +214,31 @@ legend {
 #navPad {
 
     height:60px;
+}
 
+#portfolioA {
+
+    color:white;
+    font-size:30px;
+    padding-right:15px;
+}
+
+#portfolioB {
+
+    background-image: url(../assets/images/background.jpeg);
+}
+
+#portfolioC {
+
+    color:white;
+    font-size:30px;
+    padding-right:15px;
+}
+
+#portfolioP {
+
+    font-size:30px;
+    padding-right:15px;
 }
 
 
@@ -180,6 +246,14 @@ legend {
 
     margin-top:30px;
 }
+
+
+.table-warning {
+
+    margin-left:30px;
+}
+
+
 
 #testing {
 
