@@ -54,7 +54,7 @@
 
 <br>
 
-<form class="form-horizontal" _lpchecked="1">
+<form role="form" method="POST" id="reused_form" class="form-horizontal" _lpchecked="1">
     <fieldset>
       <legend>Contact</legend>
 
@@ -1123,6 +1123,18 @@
                   <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>                
 
             </form>
+
+            <div id="success_message" style="width:100%; height:100%; display:none; ">
+              <h3>Posted your message successfully!</h3>
+          </div>
+          <div id="error_message"
+                  style="width:100%; height:100%; display:none; ">
+                      <h3>Error</h3>
+                      Sorry there was an error sending your form.
+  
+          </div>
+      </div>
+  </div>
                   
                 </div>
             </div>
